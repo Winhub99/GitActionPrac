@@ -9,7 +9,7 @@ jobs:
         - name: "My step"
           run: |
             echo "Action! $MY_Action "
-            exho "Actor name is $MY_Actor"
+            echo "Actor name is $MY_Actor"
           env:
             MY_Action: ${{github.action}}
             MY_Actor: ${{github.actor}}
