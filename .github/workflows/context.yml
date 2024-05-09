@@ -10,4 +10,4 @@ jobs:
           run: |
             echo "Action! $MY_Action "
           env:
-            MY_Action:${{github.action}}
+            MY_Action: ${{github.action}}
